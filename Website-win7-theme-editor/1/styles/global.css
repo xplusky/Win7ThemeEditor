@@ -1,0 +1,227 @@
+﻿body {
+    padding: 0px;
+    margin: 0px;
+    font-family: 微软雅黑;
+    font-size: 14px;
+    background-color: #F0F0F0;
+    -webkit-text-shadow: 0px 1px 0px #d1d1d1;
+    text-shadow: 0px 1px 0px #d1d1d1;
+}
+img
+{
+    border-style: none;
+    border-width: 0px;
+}
+a
+{
+    text-decoration: none;
+    color: #333333;
+}
+a:hover
+{
+    color: #000099;
+}
+.headerbg {
+    border-left: 0px solid #666666;
+    border-right: 0px solid #666666;
+    border-top: 0px solid #666666;
+    border-bottom: 1px solid #666666;
+    height: 100px;
+    -webkit-box-shadow: 0 10px 10px #646464;
+    -webkit-box-shadow: 0 10px 10px rgba(100, 100, 100, .2);
+    box-shadow: 0 10px 10px #646464;
+    box-shadow: 0 10px 10px rgba(100, 100, 100, .2);
+
+    background: #ffffff;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#fafafa, endColorstr= #d5d5d5, gradientType=0);
+    background: -ms-linear-gradient(top, #fafafa, #d5d5d5);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #fafafa), color-stop(1, #d5d5d5));
+    background: -moz-linear-gradient(top, #fafafa, #d5d5d5);
+}
+
+#logoimg
+{
+    width: 90px;
+    height: 90px;
+    float: left;
+    margin-left: 30px;
+}
+.header
+{
+    margin: 0px auto 0px auto;
+    width: 950px;
+}
+.header h1
+{
+    float: left;
+    width: 287px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+h1
+{
+    margin: 0px;
+    padding: 0px;
+}
+.menu
+{
+    float: right;
+    width: 376px;
+    height: 46px;
+    margin-top: 10px;
+    margin-right: 30px;
+}
+.navigate li
+{
+    list-style: none;
+    float: left;
+    text-align: center;
+}
+.navigate a
+{
+    display: inline-block;
+    width: 90px;
+    height: 30px;
+    vertical-align: middle;
+    padding-top: 5px;
+    margin-left: 8px;
+    background-color: #000000;
+    font-weight: bold;
+    font-size: 18px;
+    color: #FFFFFF;
+    border-radius: 5px;
+}
+.activelink a
+        {
+    background-color: #2B3C6F;
+}
+.content
+{
+    margin-left: auto;
+    width: 900px;
+    margin-right: auto;
+}
+.navigate a:hover
+{
+    background-color: #808080;
+}
+.box
+{
+}
+#infodetail
+{
+    margin: 0px auto 0px auto;
+    width: 900px;
+}
+.detail_left
+{
+    width: 570px;
+    float: left;
+}
+.detail_right
+{
+    float: right;
+    width: 300px;
+}
+#infodetail h2,.content h2
+{
+    font-size: 18px;
+    border-style: dashed;
+    border-width: 0px 0px 2px 0px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    border-color: #808080;
+}
+.moddetail
+{
+    height: 100px;
+    padding-left: 110px;
+}
+.moddetail p
+        {
+    margin: 1px 0px 0px 0px;
+    color: #333333;
+}
+h3
+        {
+    margin: 10px 0px 10px 10px;
+    font-size: 16px;
+}
+.line
+{
+    border-style: dotted;
+    border-width: 0px 0px 1px 0px;
+    border-color: #C0C0C0;
+    height: 2px;
+    margin-bottom: 5px;
+}
+#info span
+        {
+            text-align: center;
+            display: block;
+            margin-top: 60px;
+        }
+#screen
+{
+    position: relative;
+    width: 500px;
+    height: 367px;
+    left: 19px;
+    top: 17px;
+    float: left;
+}
+.clear
+{
+    clear: both;
+}
+.footer
+        {
+    margin: 30px auto 50px auto;
+    width: 950px;
+}
+.sharebox
+{
+    height: 60px;
+}
+.sharebox a
+        {
+    display: block;
+    width: 60px;
+    height: 60px;
+    float: left;
+    margin-left: 10px;
+}
+.sharebox2
+        {
+    margin: 10px;
+    height: 32px;
+}
+.sharebox a:hover
+{
+    background-color: #C0C0C0;
+}
+.footer span
+        {
+            text-align: center;
+            display: block;
+        }
+.appsrecommend
+        {
+    font-size: 16px;
+}
+#mainbody {
+    margin-right: auto;
+    width: 970px;
+    background-color: #FFFFFF;
+    margin-left: auto;
+    margin-top: 20px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #666666;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    -webkit-box-shadow: 2px 2px 4px rgba(100, 100, 100, .2);
+    box-shadow: 2px 2px 4px rgba(100, 100, 100, .2);
+    border-radius: 10px;
+}

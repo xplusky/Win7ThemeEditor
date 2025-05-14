@@ -1,0 +1,17 @@
+﻿<Window x:Class="Win7ThemeEditor.Helper.ErrorWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="{DynamicResource ErrorTitle}" Height="435" Width="508" WindowStartupLocation="CenterOwner">
+    <Grid>
+        <TextBox x:Name="ErrorTextbox" Margin="10,10,10,91" TextWrapping="Wrap"/>
+        <Grid HorizontalAlignment="Center" Height="73" VerticalAlignment="Bottom" Width="436" Margin="0,0,0,8">
+        	<StackPanel Orientation="Horizontal" VerticalAlignment="Top" Height="30" HorizontalAlignment="Center">
+        		<TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Height="15.24" VerticalAlignment="Center" Margin="5,0,5,2.52" Text="{DynamicResource ErrorContact}"/>
+        		<TextBox x:Name="InfoTextbox" TextWrapping="Wrap" Height="23" VerticalAlignment="Center" Margin="5,0" Width="260"/>
+        	</StackPanel>
+        	<Button x:Name="OkButton" Content="{DynamicResource BtnBack}" HorizontalAlignment="Left" VerticalAlignment="Bottom" Width="128" Height="40" Click="OkButton_Click" Margin="60,0,0,2"/>
+        	<Button x:Name="SendFeedbackButton" Content="{DynamicResource ErrorBtnFeedback}" VerticalAlignment="Bottom" Height="40" HorizontalAlignment="Right" Width="130" Click="SendFeedbackButton_Click" Margin="0,0,60,2"/>
+        </Grid>
+
+    </Grid>
+</Window>

@@ -1,0 +1,234 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:s="clr-namespace:System;assembly=mscorlib">
+    <s:String x:Key="LangName">English(US)</s:String>
+    <s:String x:Key="MainTitle">Win7 Theme Editor (For SakuraTya Moe Group)</s:String>
+    <!--Tab-->
+    <s:String x:Key="TabInfo">Infomation</s:String>
+    <s:String x:Key="TabStyle">Styles</s:String>
+    <s:String x:Key="TabCursors">Cursors</s:String>
+    <s:String x:Key="TabIcon">Icons</s:String>
+    <s:String x:Key="TabWallpaper">Wallpapers</s:String>
+    <s:String x:Key="TabColor">Colors</s:String>
+    <s:String x:Key="TabSound">Sound</s:String>
+    <!--Button-->
+    <s:String x:Key="BtnBrowse">Browse</s:String>
+    <s:String x:Key="BtnBrowseBatch">Browse(Or Batch)</s:String>
+    <s:String x:Key="BtnRestore">Restore</s:String>
+    <s:String x:Key="BtnClear">Clear</s:String>
+    <s:String x:Key="BtnClearAll">Clear All</s:String>
+    <s:String x:Key="BtnDel">Delete</s:String>
+    <s:String x:Key="BtnAdd">Add</s:String>
+    <s:String x:Key="BtnBack">Back</s:String>
+    <s:String x:Key="BtnOpen">Open</s:String>
+    <s:String x:Key="BtnCancel">Cancel</s:String>
+    <!--Def-->
+    <s:String x:Key="DefCur">Default Cursor</s:String>
+    <s:String x:Key="DefNone">None</s:String>
+    <!--Common-->
+    <s:String x:Key="ComSec">Second(s)</s:String>
+    <s:String x:Key="ComMin">Minute(s)</s:String>
+    <s:String x:Key="ComHour">Hour(s)</s:String>
+    <s:String x:Key="ComDay">Day(s)</s:String>
+    <!--FileType-->
+    <s:String x:Key="FileTypeTheme">Theme Files(*.theme)</s:String>
+    <s:String x:Key="FileTypePngJpgGifBmp">Image Files(*.png,*.jpg,*.gif,*.bmp)</s:String>
+    <s:String x:Key="FileTypeMp3">MP3 Files(*.mp3)</s:String>
+    <s:String x:Key="FileTypeIco">Icon Files(*.ico)</s:String>
+    <s:String x:Key="FileTypeTtf">Font Files(*.ttf)</s:String>
+    <s:String x:Key="FileTypePngBmp">Imsge Files(*.png,*.bmp)</s:String>
+    <s:String x:Key="FileTypePng">Imsge Files(*.png)</s:String>
+    <s:String x:Key="FileTypeInput">Input Skin Files(*.ssf,*.qpys)</s:String>
+    <s:String x:Key="FileTypeAll">All Files(*.*)</s:String>
+    <s:String x:Key="FileTypeExe">Excutive Files(*.exe)</s:String>
+    <s:String x:Key="FileTypeWav">Wave Files(*.wave)</s:String>
+    <s:String x:Key="FileTypeMsstyles">Msstyles Files(*.msstyles)</s:String>
+    <s:String x:Key="FileTypeCurAni">Cursors Files(*.cur,*.ani)</s:String>
+    <s:String x:Key="FileTypeInf">Setting Files(*.inf,*.ini)</s:String>
+    <!--Top-->
+    <s:String x:Key="TopNewTip">New Theme</s:String>
+    <s:String x:Key="TopNewMessage">Confirm?</s:String>
+    <s:String x:Key="TopOpenTip">Open Theme</s:String>
+    <s:String x:Key="TopSaveTip">Save Theme to System</s:String>
+    <s:String x:Key="TopSaveMessage">Confirm?</s:String>
+    <s:String x:Key="TopSaveOverwriteMessage">File exist, do you want to overwrite files?</s:String>
+    <s:String x:Key="TopSaveOccupyMessage">File occupied, whether to ignore?</s:String>
+    <s:String x:Key="TopSaveSameNameMessage">File name is illegal(like none,aero,etc.). Please change.</s:String>
+    <s:String x:Key="TopSaveOk">Save Complete</s:String>
+    <s:String x:Key="TopSfxTip">Creat Self-extracting Files</s:String>
+    <s:String x:Key="TopInstallerTip">Creat modern installation packages</s:String>
+    <s:String x:Key="TopAboutTip">About &amp; Help</s:String>
+    <!--ThemeFile-->
+    <s:String x:Key="ThemeFileCursorsTheme">Cursors Theme</s:String>
+    <s:String x:Key="ThemeFileSoundTheme">Sound Theme</s:String>
+    <!--TabInfo-->
+    <s:String x:Key="TabInfoInfo">Theme Note</s:String>
+    <s:String x:Key="TabInfoInfoText" xml:space="preserve">Author:
+Website:</s:String>
+    <s:String x:Key="TabInfoDispName">*Theme Display Name</s:String>
+    <s:String x:Key="TabInfoDispNameText">My Theme</s:String>
+    <s:String x:Key="TabInfoFileName">*Theme File Name</s:String>
+    <s:String x:Key="TabInfoLogo">Theme Brand</s:String>
+    <!--TabStyle-->
+    <s:String x:Key="TabStyleMssFile">Style File</s:String>
+    <s:String x:Key="TabStyleBtnCuston">Use Custon Style File</s:String>
+    <s:String x:Key="TabStyleBtnDefault">System Default Style</s:String>
+    <s:String x:Key="TabStyleBtnEditMss">Excute Win7 Style Builder</s:String>
+    <s:String x:Key="TabStyleBtnEditMssNotSet">Has not yet been setup position of Win7 Style Builder. Please set.</s:String>
+    <s:String x:Key="TabStyleBtnSetPath">Set Path</s:String>
+    <s:String x:Key="TabStyleFileInfo">File Size: {0} MB</s:String>
+    <!--TabCursors-->
+    <s:String x:Key="TabCursorsDefCur">Default Cursor</s:String>
+    <s:String x:Key="TabCursorsReadInfBtn">Read Inf File</s:String>
+    <!--TabIcon-->
+    <s:String x:Key="TabIconCom">My Computer</s:String>
+    <s:String x:Key="TabIconUser">Users</s:String>
+    <s:String x:Key="TabIconNet">Network</s:String>
+    <s:String x:Key="TabIconDustEmpty">Recycle Bin(Empty)</s:String>
+    <s:String x:Key="TabIconDustFull">Recycle Bin(Full)</s:String>
+    <!--TabWallpaper-->
+    <s:String x:Key="TabWallpaperBtnUp">Move Up</s:String>
+    <s:String x:Key="TabWallpaperBtnDown">Move Down</s:String>
+    <s:String x:Key="TabWallpaperChangeTime">Change Interval</s:String>
+    <s:String x:Key="TabWallpaperShuffle">Shuffle</s:String>
+    <s:String x:Key="TabWallpaperImageInfo">Image Size: {0}*{1} File Size: {2}KB</s:String>
+    <!--TabColor-->
+    <s:String x:Key="TabColorCode">Color Code</s:String>
+    <!--TabSound-->
+    <s:String x:Key="TabSoundDefSound">Use Default Sound Theme</s:String>
+    <s:String x:Key="TabSoundBtnPlay">Play</s:String>
+    <!--Sfx-->
+    <s:String x:Key="SfxTitle">Creat Self-extracting Files</s:String>
+    <s:String x:Key="SfxCreat">Creat Sfx File</s:String>
+    <s:String x:Key="SfxCreatComplete">Creat Complete!</s:String>
+    <s:String x:Key="SfxLicence">Licence</s:String>
+    <s:String x:Key="SfxReadme">Readme Infomation</s:String>
+    <s:String x:Key="SfxReadmeText" xml:space="preserve">[Intallation Tips]
+* Confirn that your system is above Windows7 Home Premium including Profesional and Ultimate. If you don't know that, please look up in computer properties. If you haven't patch your theme file, please refer to http://bbs.comicdd.com/thread-199748-1-1.html
+
+* If you want to uninstall your theme, please delete in customize window
+
+* Don't change the fallowing path. Please install directly</s:String>
+    <s:String x:Key="SfxAutoRun">Excute After Finish</s:String>
+    <s:String x:Key="SfxWinTitle">Window Title</s:String>
+    <!--About-->
+    <s:String x:Key="AboutTitle">About Win7 Theme Editor</s:String>
+    <s:String x:Key="AboutAppName" xml:space="preserve">Win7 Theme Editor
+(For SakuraTya)
+V{0}</s:String>
+    <s:String x:Key="AboutBtnUpdate">Update/Feedback</s:String>
+    <s:String x:Key="AboutBtnUpdateMessage"  xml:space="preserve">New Version:{0}
+Click to Update</s:String>
+    <s:String x:Key="AboutCopyrightTitle">*Copyright Information*</s:String>
+    <s:String x:Key="AboutCopyrightText" xml:space="preserve">©Copyright 2011-2013 SakuraTya/Plusky
+This software can be used free communication.Not for business.The final right of explanation belong to the author of the software.
+Contributors:{0}
+LastUpdate:{1}</s:String>
+    <s:String x:Key="AboutComponentTitle">*Components*</s:String>
+    <s:String x:Key="AboutComponentInstallerText" xml:space="preserve">Win7 Theme Installer
+©Copyright 2012-2013 Leaful.com</s:String>
+    <s:String x:Key="AboutHelpSetTitle">*Get Help/App Settings*</s:String>
+    <s:String x:Key="AboutHelpSetBtnHelp">Software Tutorial</s:String>
+    <s:String x:Key="AboutHelpSetBtnAnimate">Animate On/Off</s:String>
+    <s:String x:Key="AboutHelpSetLangChangeMes">To apply the language setting, please restart the program</s:String>
+    <s:String x:Key="AboutLinkTitle">*Web Links*</s:String>
+    <!--OpenTheme-->
+    <s:String x:Key="OpenTitle">Open Theme Form System</s:String>
+    <s:String x:Key="OpenDelMessage">Do you want to delete the theme?</s:String>
+    <s:String x:Key="OpenDelOccupyMessage">File occupied! Cannot be deleted</s:String>
+    <!--Installer-->
+    <s:String x:Key="InstIcon" xml:space="preserve">Win7 Theme Installer
+{0}</s:String>
+    <s:String x:Key="InstCreat">Creat Installation Package</s:String>
+    <s:String x:Key="InstCreatErrorChooseStyle">You have to choose a theme file.</s:String>
+    <s:String x:Key="InstCreatErrorIconFail">Change icon failure!</s:String>
+    <s:String x:Key="InstCreatComplete">Creat Installation Package Complete</s:String>
+    <s:String x:Key="InstGroupFile">Theme File</s:String>
+    <s:String x:Key="InstUseAppTheme">Use Theme From This App</s:String>
+    <s:String x:Key="InstUseCustom">Use Custom Theme</s:String>
+    <s:String x:Key="InstGroupBasic">Interface Settings</s:String>
+    <s:String x:Key="InstBgImage">Background Image</s:String>
+    <s:String x:Key="InstSplashImage">Splash Image</s:String>
+    <s:String x:Key="InstWelcomeImage">Welcome Image</s:String>
+    <s:String x:Key="InstBgm">Background Music</s:String>
+    <s:String x:Key="InstThemeName">Theme Name</s:String>
+    <s:String x:Key="InstAuthor">Author</s:String>
+    <s:String x:Key="InstWebsite">Website</s:String>
+    <s:String x:Key="InstSetupIcon">Package Icon</s:String>
+    <s:String x:Key="InstGroupReadme">Readme</s:String>
+    <s:String x:Key="InstDisplayReadme">Diaplay Readme</s:String>
+    <s:String x:Key="InstGroupLicence">Useage Licence</s:String>
+    <s:String x:Key="InstDisplayLicence">Display Licence</s:String>
+    <s:String x:Key="InstGroupAdvance">Install Settings</s:String>
+    <s:String x:Key="InstFonts">Install Fonts</s:String>
+    <s:String x:Key="InstStartButton">Change Start Button(54*162 or 106*318)</s:String>
+    <s:String x:Key="InstStartButtonError">Image Size Must Be 54*162 or 106*318</s:String>
+    <s:String x:Key="InstInput">Input Method Skins(Sougou or QQ)</s:String>
+    <s:String x:Key="InstOther">Other Files</s:String>
+    <s:String x:Key="InstPassword">Set Password</s:String>
+    <s:String x:Key="InstLogon">Logon Screen Image(Stretch to full screen)</s:String>
+    <s:String x:Key="InstVersion">Theme Version</s:String>
+    <!--ErrorBox-->
+    <s:String x:Key="ErrorTitle">Error :(</s:String>
+    <s:String x:Key="ErrorContact">Your contact information</s:String>
+    <s:String x:Key="ErrorBtnFeedback">Send Error Message</s:String>
+    <!--SoundTheme-->
+    <s:String x:Key="SoundThemeDefault">Windows Default</s:String>
+    <s:String x:Key="SoundThemeSilent">Silent</s:String>
+    <s:String x:Key="SoundThemeAfternoon">Afternoon</s:String>
+    <s:String x:Key="SoundThemeHandwriting">Handwriting</s:String>
+    <s:String x:Key="SoundThemeCharacter">Character</s:String>
+    <s:String x:Key="SoundThemeUrban">Urban</s:String>
+    <s:String x:Key="SoundThemeTriangle">Triangle</s:String>
+    <s:String x:Key="SoundThemeHoliday">Holiday</s:String>
+    <s:String x:Key="SoundThemeFlowers">Flowers</s:String>
+    <s:String x:Key="SoundThemeTradition">Tradition</s:String>
+    <s:String x:Key="SoundThemeScenery">Scenery</s:String>
+    <s:String x:Key="SoundThemeWeird">Weird</s:String>
+    <s:String x:Key="SoundThemeRaga">Raga</s:String>
+    <s:String x:Key="SoundThemeSavanna">Savanna</s:String>
+    <s:String x:Key="SoundThemeSonata">Sonata</s:String>
+    <!--Sound-->
+    <s:String x:Key="SoundChangeTheme">Change Theme</s:String>
+    <s:String x:Key="SoundWindowsLogoff">Windows Logoff</s:String>
+    <s:String x:Key="SoundWindowsUAC">Windows UAC</s:String>
+    <s:String x:Key="SoundWindowsLogon">Windows Logon</s:String>
+    <s:String x:Key="SoundSystemHand">System Hand</s:String>
+    <s:String x:Key="SoundClose">Close</s:String>
+    <s:String x:Key="SoundRestoreUp">Restore Up</s:String>
+    <s:String x:Key="SoundRestoreDown">Restore Down</s:String>
+    <s:String x:Key="SoundMenuPopup">Menu Popup</s:String>
+    <s:String x:Key="SoundSystemExclamation">System Exclamation</s:String>
+    <s:String x:Key="SoundPrintComplete">Print Complete</s:String>
+    <s:String x:Key="SoundOpen">Open</s:String>
+    <s:String x:Key="SoundFaxBeep">Fax Beep</s:String>
+    <s:String x:Key="SoundMailBeep">MailBeep</s:String>
+    <s:String x:Key="SoundSystemAsterisk">System Asterisk</s:String>
+    <s:String x:Key="SoundShowBand">Show Band</s:String>
+    <s:String x:Key="SoundMaximize">Maximize</s:String>
+    <s:String x:Key="SoundMinimize">Minimize</s:String>
+    <s:String x:Key="SoundLowBatteryAlarm">Low Battery Alarm</s:String>
+    <s:String x:Key="SoundCriticalBatteryAlarm">Critical Battery Alarm</s:String>
+    <s:String x:Key="SoundAppGPFault">App Fault</s:String>
+    <s:String x:Key="SoundSystemNotification">System Notification</s:String>
+    <s:String x:Key="SoundMenuCommand">Menu Command</s:String>
+    <s:String x:Key="SoundDeviceDisconnect">Device Disconnect</s:String>
+    <s:String x:Key="SoundDeviceFail">Device Fail</s:String>
+    <s:String x:Key="SoundDeviceConnect">Device Connect</s:String>
+    <s:String x:Key="SoundSystemExit">System Exit</s:String>
+    <s:String x:Key="SoundCCSelect">Select</s:String>
+    <s:String x:Key="SoundSystemQuestion">System Question</s:String>
+    <s:String x:Key="SoundDefault">Default</s:String>
+
+    <s:String x:Key="SoundFaxError">Fax Error</s:String>
+    <s:String x:Key="SoundSecurityBand">Security Band</s:String>
+    <s:String x:Key="SoundNavigating">Navigating</s:String>
+    <s:String x:Key="SoundActivatingDocument">Activating Document</s:String>
+    <s:String x:Key="SoundSearchProviderDiscovered">Search Provider Discovered</s:String>
+    <s:String x:Key="SoundFeedDiscovered">Feed Discovered</s:String>
+    <s:String x:Key="SoundFaxSent">Fax Sent</s:String>
+    <s:String x:Key="SoundFaxLineRings">Fax Line Rings</s:String>
+    <s:String x:Key="SoundEmptyRecycleBin">Empty Recycle Bin</s:String>
+    <s:String x:Key="SoundMoveMenuItem">Move Menu Item</s:String>
+    <s:String x:Key="SoundBlockedPopup">Blocked Popup</s:String>
+</ResourceDictionary>

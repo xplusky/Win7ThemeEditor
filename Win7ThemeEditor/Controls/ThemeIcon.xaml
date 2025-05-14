@@ -1,0 +1,82 @@
+﻿<UserControl
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	xmlns:Controls="clr-namespace:Win7ThemeEditor.Controls"
+	mc:Ignorable="d"
+	x:Class="Win7ThemeEditor.ThemeIcon"
+	x:Name="ThemeIconElement"
+	d:DesignWidth="226.5" d:DesignHeight="243">
+	<StackPanel VerticalAlignment="Center">
+		<Viewbox Margin="3">
+			<Grid x:Name="IconGrid" Height="96" Width="128">
+				<Grid x:Name="OnePicModeGrid">
+					<Controls:AsyncImage x:Name="Wallpaper0" HorizontalAlignment="Right" Height="72" Margin="0,3,3,0" VerticalAlignment="Top" Width="96" ImagePath="{Binding Image0Path, ElementName=ThemeIconElement}"/>
+				</Grid>
+				<Grid x:Name="MulPicModeGrid">
+					<Controls:AsyncImage x:Name="Wallpaper3" HorizontalAlignment="Right" Height="54" Margin="0,3,11,0" VerticalAlignment="Top" Width="72" RenderTransformOrigin="0.5,0.5" ImagePath="{Binding Image3Path, ElementName=ThemeIconElement}">
+						<Controls:AsyncImage.Effect>
+							<DropShadowEffect Direction="54" Opacity="0.295" BlurRadius="8"/>
+						</Controls:AsyncImage.Effect>
+						<Controls:AsyncImage.RenderTransform>
+							<TransformGroup>
+								<ScaleTransform/>
+								<SkewTransform AngleY="4"/>
+								<RotateTransform/>
+								<TranslateTransform/>
+							</TransformGroup>
+						</Controls:AsyncImage.RenderTransform>
+					</Controls:AsyncImage>
+					<Controls:AsyncImage x:Name="Wallpaper2" HorizontalAlignment="Right" Height="54" Margin="0,14,21,0" VerticalAlignment="Top" Width="72" RenderTransformOrigin="0.5,0.5" ImagePath="{Binding Image2Path, ElementName=ThemeIconElement}">
+						<Controls:AsyncImage.Effect>
+							<DropShadowEffect Direction="54" Opacity="0.295" BlurRadius="8"/>
+						</Controls:AsyncImage.Effect>
+						<Controls:AsyncImage.RenderTransform>
+							<TransformGroup>
+								<ScaleTransform/>
+								<SkewTransform AngleY="5"/>
+								<RotateTransform/>
+								<TranslateTransform/>
+							</TransformGroup>
+						</Controls:AsyncImage.RenderTransform>
+					</Controls:AsyncImage>
+					<Controls:AsyncImage x:Name="Wallpaper1" HorizontalAlignment="Right" Height="54" Margin="0,25,33,0" VerticalAlignment="Top" Width="72" RenderTransformOrigin="0.5,0.5" ImagePath="{Binding Image1Path, ElementName=ThemeIconElement}">
+						<Controls:AsyncImage.Effect>
+							<DropShadowEffect Direction="54" Opacity="0.295" BlurRadius="8"/>
+						</Controls:AsyncImage.Effect>
+						<Controls:AsyncImage.RenderTransform>
+							<TransformGroup>
+								<ScaleTransform/>
+								<SkewTransform AngleY="7"/>
+								<RotateTransform/>
+								<TranslateTransform/>
+							</TransformGroup>
+						</Controls:AsyncImage.RenderTransform>
+					</Controls:AsyncImage>
+				</Grid>
+				<Grid HorizontalAlignment="Left" Height="62" VerticalAlignment="Bottom" Width="63">
+					<Border x:Name="ColorStyleBorder" BorderThickness="1" CornerRadius="5">
+						<Border.Background>
+							<SolidColorBrush Color="{Binding ThemeColor, ElementName=ThemeIconElement}"/>
+						</Border.Background>
+					</Border>
+					<Path Data="M1.7494305,59.047836 C4.7486815,55.194584 8.393369,36.679791 24.867173,25.016921 41.340977,13.35405 59.417492,8.5441458 60.584056,9.2721684 62.861202,9.9185481 61.475119,-0.12692286 57.814425,0.086872601 55.919221,0.23266012 4.3113482,0.086872601 4.3113482,0.086872601 4.3113482,0.086872601 0.37515453,0.52395917 -0.062200325,4.3144525 -0.49955518,8.1049458 -0.062200325,56.943994 -0.062200325,56.943994 -0.062200325,56.943994 -0.95825039,57.506973 1.7494305,59.047836 z" HorizontalAlignment="Left" Height="59.963" Margin="-0.257,0.085,0,0" Stretch="Fill" VerticalAlignment="Top" Width="62.941">
+						<Path.Fill>
+							<LinearGradientBrush EndPoint="1,1" StartPoint="0,0">
+								<GradientStop Color="#34FFFFFF" Offset="0"/>
+								<GradientStop Color="#B3FFFFFF" Offset="0.771"/>
+							</LinearGradientBrush>
+						</Path.Fill>
+					</Path>
+					<Border BorderBrush="#97333333" BorderThickness="1" CornerRadius="5"/>
+					<Border BorderBrush="#66F7F7F7" BorderThickness="1" CornerRadius="4" Margin="1"/>
+				</Grid>
+				<Grid Height="20" VerticalAlignment="Bottom" Margin="0,0,0,1">
+					<Controls:AsyncImage x:Name="BrandImage" HorizontalAlignment="Right" ImagePath="{Binding BrandImagePath, ElementName=ThemeIconElement}"/>
+				</Grid>
+			</Grid>
+		</Viewbox>
+		<TextBlock x:Name="ThemeDisplayNameText" TextWrapping="Wrap" TextAlignment="Center" Visibility="{Binding NameVisibility, ElementName=ThemeIconElement, Mode=TwoWay}" Text="{Binding ThemeName, ElementName=ThemeIconElement}"/>
+	</StackPanel>
+</UserControl>

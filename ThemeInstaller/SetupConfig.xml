@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--本XML文件用于配置基本信息，可以根据自己的要求修改，路径的方式均为相对路径，并且第一个字符不能是\，具体路径如 Contents\Files\Bg.jpg 等-->
+<!--本安装程序可自由传播使用，但禁止用于违法用途-->
+<!--软件编写：桂叶君  微博：http://weibo.com/plusky -->
+<Settings Version="3.0">
+  <SetupMode Tip="Install为安装，无需修改">Install</SetupMode>
+  <Title Tip="主题名称(重要，头尾不要有空格，不能含有非法文件名字符)">My win7 Theme</Title>
+  <Author Tip="主题作者">作者</Author>
+  <ThemeVersion Tip="主题版本">1.0</ThemeVersion>
+  <Website Tip="作者网址，在最后完成时可选访问"></Website>
+  <SplashImagePath Tip="闪屏图片"></SplashImagePath>
+  <BackgroundImagePath Tip="安装程序背景图片，为空时背景为白色"></BackgroundImagePath>
+  <BgmPath Tip="背景音乐相对路径，为空时无音乐"></BgmPath>
+  <WelcomeImagePath Tip="欢迎界面的图片"></WelcomeImagePath>
+  <StartButtonPath Tip="开始按钮替换图标，为空时不替换">Contents\Files\sb.png</StartButtonPath>
+  <LogonImagePath Tip="系统登录界面图片"></LogonImagePath>
+  <Password Tip="安装密码（明文）"></Password>
+  
+  <LicenceInfo Tip="许可文本，可以换行"></LicenceInfo>
+  <ReadmeInfo Tip="主题信息，可以换行"></ReadmeInfo>
+
+  <!--以下节点请勿修改 -->
+  <UninstallThemeFileName></UninstallThemeFileName>
+  <UninstallThemeContentDirName></UninstallThemeContentDirName>
+</Settings>

@@ -1,0 +1,83 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:s="clr-namespace:System;assembly=mscorlib">
+    <s:String x:Key="LangName">繁體中文（台灣）</s:String>
+    <s:String x:Key="BtnEnterSetup">進入安裝</s:String>
+    <s:String x:Key="BtnAgree">同意</s:String>
+    <s:String x:Key="BtnDisagree">不同意</s:String>
+    <s:String x:Key="BtnNext">下一步</s:String>
+    <s:String x:Key="BtnBack">上一步</s:String>
+    <s:String x:Key="BtnInstall">開始安裝</s:String>
+    <s:String x:Key="BtnComplete">完成</s:String>
+    <s:String x:Key="BtnOk">確定</s:String>
+    <s:String x:Key="BtnUninstall">開始解除安裝</s:String>
+
+    <s:String x:Key="AboutMessage" xml:space="preserve">*關於本主題及附件*
+本主題的作者{0}所製作的主題及附屬的組件不能保證在本系統能正常使用，其適用性與本程式的使用無關，如在主題或其附屬組件（包括輸入法皮膚，字形等）使用中出現問題應向{0}提出。本軟體的作者不負責相關的技術支持。以上內容版權歸{0}所有。
+主題版本：{2}
+
+*關於本安裝程式*
+本軟體（Win7主題安裝器）是Win7主題生成器組件（官網http://win7themeeditor.sinaapp.com/）），可以定制各種安裝組件。主要功能是提供主題安裝環境，并支持檢測系統主題文件的破解情況，提供第三方軟件(UniversalThemePatcher)破解系統主題，第三方軟件的可用性本程序的所有者不予以負責。在本軟體的功能範圍內本程序的作者可提供有限的技術支持，如不按照說明使用本軟體，造成的後果本軟體的作者不負責。本軟體可以自由傳播使用，但不可用於非法用途，本軟件版權歸“桂葉出品” （http://leaful.com/）。
+軟件版本：{1}
+</s:String>
+    <s:String x:Key="AboutTitle">關於</s:String>
+
+    <s:String x:Key="PasswordEnterPassword">輸入安裝密碼</s:String>
+    <s:String x:Key="PasswordNotRight">密碼錯誤，請重新輸入</s:String>
+
+    <s:String x:Key="LincenceTitle">授權合約</s:String>
+    <s:String x:Key="EnviromentTitle">系統環境檢測</s:String>
+    <s:String x:Key="EnviromentClickToPatchTheme">點擊破解系統主題</s:String>
+    <s:String x:Key="EnviromentIfPatchTheme">是否要破解系統主題？</s:String>
+    <s:String x:Key="EnviromentClickToPatchFrame">點擊破解資料夾背景文件</s:String>
+    <s:String x:Key="EnviromentIfPatchFrame">是否要破解資料夾背景？</s:String>
+    <s:String x:Key="EnviromentSystemVersion">系統版本</s:String>
+    <s:String x:Key="EnviromentThemePatchDetect">系統主題文件檢測</s:String>
+    <s:String x:Key="EnviromentFramePatchDetect">資料夾背景文件檢測</s:String>
+    <s:String x:Key="EnviromentDetecting">檢測中……</s:String>
+    <s:String x:Key="EnviromentNotPatched">未破解</s:String>
+    <s:String x:Key="EnviromentModify">已修改</s:String>
+    <s:String x:Key="EnviromentPatchedFrame">已安裝最新櫻茶資料夾背景補丁 (17514)</s:String>
+    <s:String x:Key="EnviromentNotPatchedFrame">沒有破解或不是櫻茶最新版補丁</s:String>
+    <s:String x:Key="EnviromentPatchOk">主題文件破解成功，請重啟電腦以生效，是否立即重新啓動電腦？</s:String>
+    <s:String x:Key="EnviromentFramePatchOk">文件夾背景補丁破解成功，請重啟計算機或重啟Explorer處理程序生效</s:String>
+    <s:String x:Key="EnviromentNoticeSystemVersion">檢測到您的系統不支持自定義主題的安裝，如果要繼續可能會變成基本佈景，是否要繼續？</s:String>
+    <s:String x:Key="EnviromentNoticeNotPatch">檢測到您的系統主題文件未破解，如果依然要安裝主題，可能會變成基本佈景，是否要繼續？</s:String>
+    <s:String x:Key="EnviromentNotMatch">檢測系統環境功能僅支援 Windows7 SP1</s:String>
+    <s:String x:Key="EnviromentPatchPleaseWait">可能會稍慢，請稍等！按確定繼續</s:String>
+
+    <s:String x:Key="ReadmeTitle">主題訊息</s:String>
+
+    <s:String x:Key="ComponentTitle">組件選擇</s:String>
+    <s:String x:Key="ComponentTheme">Windows 7 主題</s:String>
+    <s:String x:Key="ComponentFont">安裝字形檔案</s:String>
+    <s:String x:Key="ComponentCursors">安裝滑鼠指標</s:String>
+    <s:String x:Key="ComponentIcons">安裝桌面圖示</s:String>
+    <s:String x:Key="ComponentStartButton">變更開始按鈕</s:String>
+    <s:String x:Key="ComponentLogonImage">安裝系統登入背景圖片</s:String>
+    <s:String x:Key="ComponentStartButtonTip">注意：開始按鈕替換之後，在更換別的主題，並不會自動還原原版按鈕樣式，請自行在本主題資料夾下的StartButton資料夾下的W7SOCV5軟體或其他軟體進行還原。</s:String>
+    <s:String x:Key="ComponentInput">安裝輸入法皮膚</s:String>
+    <s:String x:Key="ComponentOther">安裝其他檔案</s:String>
+    <s:String x:Key="ComponentGreenInstall">創建卸載程式集、開始程式清單</s:String>
+	<s:String x:Key="ComponentDesktopIcon">創建桌面圖示</s:String>
+
+    <s:String x:Key="InstallingTitle">正在安裝，請稍後……</s:String>
+
+    <s:String x:Key="CompleteTitle">安裝完成</s:String>
+    <s:String x:Key="CompleteApplyTheme">套用主題</s:String>
+    <s:String x:Key="CompleteVisitWeb">訪問網站</s:String>
+    <s:String x:Key="CompleteApplyInput">套用輸入法皮膚</s:String>
+    <s:String x:Key="CompleteBrowseFiles">瀏覽檔案</s:String>
+    <s:String x:Key="CompleteChangeStartButton">立即變更[開始]按鈕</s:String>
+
+    <s:String x:Key="ErrorTitle">安裝失敗……</s:String>
+
+    <s:String x:Key="NotSupportTitle">訊息</s:String>
+    <s:String x:Key="NotSupportMessage">本軟體僅能安裝在 Windows 7 上。</s:String>
+
+    <s:String x:Key="UninstallTitle">選擇解除安裝項目</s:String>
+    <s:String x:Key="UninstallCompleteTitle">解除安裝完成</s:String>
+    <s:String x:Key="UninstallMssInUseMes">此主題可能正在使用中，是否仍要繼續刪除？刪除后可能會有殘留檔案。</s:String>
+    <s:String x:Key="Uninstall">解除安裝</s:String>
+    <s:String x:Key="UninstallStartUrl">訪問我的網站</s:String>
+</ResourceDictionary>

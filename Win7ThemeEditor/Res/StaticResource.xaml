@@ -1,0 +1,9 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:s="clr-namespace:System;assembly=mscorlib">
+    <s:String x:Key="ThemeInstallerVersion">3.4.0</s:String>
+    <s:String x:Key="AppContributors">桂叶君（程序）、Rhynaly（提供安装器日文、繁体中文翻译）、萌芽系列網站mnya.idv.tw（提供台湾繁体中文翻译）</s:String>
+    <s:DateTime x:Key="AppLastUpdateTime">2013/12/3</s:DateTime>
+    <s:String x:Key="SurpriseMessage">其实没有出错啦。你看到这个画面说明你按到F8啦。很无聊啊很无聊，这些都是拿来测试用的，算是彩蛋吧~做软件其实还是挺麻烦的。这个软件弄坏了很久啊，都不知道花了多长时间来搞的。总之就是有兴趣花多少时间都不会觉得乏味，以后工作的时候也是这样的，感兴趣的东西你就会不辞辛劳的做好它。相对的，你不喜欢的东西你就会对它产生不良情绪，波及到你做事的结果。 欢迎访问我的主页~</s:String>
+    <s:String x:Key="AppUpdateXmlUrl">http://win7themeeditor.sinaapp.com/LatestVersion.xml</s:String>
+</ResourceDictionary>

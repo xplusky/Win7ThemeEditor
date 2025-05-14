@@ -1,0 +1,111 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Win7主题生成器(方便的制作出Windows7系统主题)</title>
+    <meta name="keywords" content="Win7主题生成器，樱茶幻萌组，桂叶出品，系统主题，系统美化" />
+    <meta name="description" content="Win7主题生成器（樱茶幻萌组专用）是用于Windows7主题文件和安装包制作的工具，提供简单的方法制作出令人满意的主题。" />
+    <link href="styles/global.css" rel="stylesheet" />
+    <link href="styles/blueberry.css" rel="stylesheet" />
+    <script src="http://lib.sinaapp.com/js/jquery/1.8/jquery.min.js"></script>
+    <script src="scripts/jquery.blueberry.js"></script>
+    <script src="scripts/globalscript.js"></script>
+    <script src="index.js"></script>
+    <style type="text/css">
+    </style>
+</head>
+<body>
+    <div class="headerbg">
+        <div class="header">
+            <img id="logoimg" src="images/logo.png" alt=""/>
+            <h1>Win7主题生成器</h1>
+            <div class="menu">
+                <ul class="navigate">
+            	    <li class="activelink"><a href="index.html">首页</a></li>
+                    <li><a href="teach.html">使用说明</a></li>
+                    <li><a href="updatelog.html">更新记录</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div id="mainbody">
+        
+        <div class="content">
+            
+            <h2>欢迎使用Win7主题生成器</h2>
+            <h3>关于Win7主题生成器</h3>
+            <p>Win7主题生成器是由樱茶幻萌组/桂叶出品的一个主题制作程序。用于生成 *.theme 文件和相关文件（壁纸，指针，图标，声音等）。只要你用VSB做好了*.msstyles文件（样式文件），或者使用原版样式文件，选好了图标壁纸等，程序自动将整个主题连同相关文件生成到系统主题目录！方便大家制作出自己的主题，不用再编辑里面的诸多代码了。很方便，高手和新手都很适合使用！相比其他的同类软件，本程序更加方便使用，采用标签页的形式，方便切换编辑！大多数选项都不是必须填写的，没有修改的选项都使用系统默认的资源，而且界面也更加华丽，采用全Aero界面，动态背景效果，傻瓜式操作~在美轮美奂的环境中制作主题！另外，本程序可以读取编辑系统已安装的主题文件，并支持生成自解压安装包，无需详细设置，一键生成，方便主题分享。樱茶Win7主题生成器更新到4.0版之后，增加了实用的制作现代化动态效果主题安装包功能组件，很大程度上方便了安装包的制作。</p>
+            <h3><a href="http://pan.baidu.com/share/link?shareid=2352958468&uk=3036951535" target="_blank" id="downloadlink">【点击下载最新版Win7主题生成器（<span id="downcount">版本：5.62&nbsp; 下载次数：</span>）】</a></h3>
+            <p>适用环境：Windows7 32位/64位</p>
+            <div class="blueberry">
+                <ul class="slides">
+                    <li><img src="http://i.imgur.com/kCTyvHT.jpg" /></li>
+                    <li><img src="http://i.imgur.com/662eIpq.jpg" /></li>
+                    <li><img src="http://i.imgur.com/6YLlu8L.jpg" /></li>
+                </ul>
+            </div>
+        </div>
+        <div id="infodetail">
+            <div class="detail_right">
+                <h2>关注&amp;分享</h2>
+                <div class="sharebox">
+                    <a href="http://weibo.com/plusky" target="_blank"><img src="images/followicon/plusky.png" /></a>
+                    <a href="http://weibo.com/sakuratya" target="_blank"><img src="images/followicon/sakuratya.png" /></a>
+                </div>
+                <div class="sharebox2">
+                    <!-- JiaThis Button BEGIN -->
+                    <div class="jiathis_style_32x32">
+                        <a class="jiathis_button_qzone"></a>
+                        <a class="jiathis_button_tsina"></a>
+                        <a class="jiathis_button_tqq"></a>
+                        <a class="jiathis_button_renren"></a>
+                        <a href="http://www.jiathis.com/share?uid=1700618" class="jiathis jiathis_txt jtico jtico_jiathis" target="_blank"></a>
+                        <a class="jiathis_counter_style"></a>
+                    </div>
+                    <script type="text/javascript"> var jiathis_config = { data_track_clickback: true }; </script>
+                    <script type="text/javascript" src="http://v3.jiathis.com/code/jia.js?uid=1343813583964748" charset="utf-8"></script>
+                    <!-- JiaThis Button END -->
+                </div>
+                <h2>更多应用</h2>
+                <div class="appsrecommend">
+                    <p><a href="http://moerhythm.sinaapp.com/" target="_blank">萌音节拍(Windows/Windows Phone)</a></p>
+                    <p><a href="http://bbs.comicdd.com/thread-313155-1-1.html" target="_blank">桂叶雪花飘落动态桌面(Windows)</a></p>
+                    <p><a href="http://bbs.comicdd.com/thread-279198-1-1.html" target="_blank">那朵花动态桌面(Windows)</a></p>
+                </div>
+            </div>
+            
+            <div class="detail_left">
+                <h2>主要功能</h2>
+                <div class="moddetail" style="background-image: url('images/infoicon/systheme.jpg'); background-repeat: no-repeat">
+                    <h3>编辑已安装主题</h3>
+                    <p>不但能够新建自己的主题，还能够对系统已经安装的主题进行编辑和保存。而且还能够对保存的样式进行图标预览。</p>
+                </div>
+                <div class="line"></div>
+                <div class="moddetail" style="background-image: url('images/infoicon/various.jpg'); background-repeat: no-repeat">
+                    <h3>多样化的设置</h3>
+                    <p>能够设置样式文件、壁纸、鼠标、系统声音、颜色、透明度等样式，标签式操作更加方便！可视化的预览让您更直观的编辑。无代码操作让您轻点鼠标即可完成主题制作！</p>
+                </div>
+                <div class="line"></div>
+                <div class="moddetail" style="background-image: url('images/infoicon/bauty.jpg'); background-repeat: no-repeat">
+                    <h3>美丽的动态Aero效果</h3>
+                    <p>采用全Aero样式，透明磨砂效果。动态背景、按钮效果，让您在优美的界面下享受制作成果的喜悦。</p>
+                </div>
+                <div class="line"></div>
+                <div class="moddetail" style="background-image: url('images/infoicon/installer.jpg'); background-repeat: no-repeat">
+                    <h3>生成现代化安装包</h3>
+                    <p>新增的生成安装包的功能将分享有提高到了一个新的高度。安装包高度定制，可设置BGM、背景图片、可选组件安装、安装字体、输入法等功能。并可以自动检测破解系统主题和文件夹背景。大大增强了主题安装体验。</p>
+                </div>
+                <h2>反馈</h2>
+                <p>推荐在本软件的<a href="http://bbs.comicdd.com/thread-297136-1-1.html" target="_blank">动漫东东发布页</a>反馈问题。</p>
+                <p>桂叶出品讨论群：173707488 (有福利哦^_^) 验证：桂叶出品</p>
+                <p>软件问题反馈：Email： plusky@126.com 或 QQ： <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=969251894&site=qq&menu=yes"><img border="0" src="http://wpa.qq.com/pa?p=2:969251894:45" alt="点击这里给我发消息" title="点击这里给我发消息"/></a>969251894</p>
+                
+            </div>
+            <div class="clear"></div>
+        </div>
+    </div>
+    <div class="footer">
+        <span>©2011-2013 <a href="http://weibo.com/plusky" target="_blank">桂叶出品</a></span>
+    </div>
+</body>
+</html>

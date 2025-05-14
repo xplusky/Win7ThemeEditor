@@ -1,0 +1,63 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Win7主题生成器(方便的制作出Windows7系统主题)</title>
+    <meta name="keywords" content="Win7主题生成器，樱茶幻萌组，桂叶出品，系统主题，系统美化" />
+    <meta name="description" content="Win7主题生成器（樱茶幻萌组专用）是用于Windows7主题文件和安装包制作的工具，提供简单的方法制作出令人满意的主题。" />
+    <link href="styles/global.css" rel="stylesheet" />
+    <script src="scripts/jquery-1.8.2.js"></script>
+    <style type="text/css">
+    </style>
+    <script src="scripts/globalscript.js"></script>
+</head>
+<body>
+    <div class="headerbg">
+        <div class="header">
+            <img id="logoimg" src="images/logo.png" />
+            <h1>Win7主题生成器</h1>
+            <div class="menu">
+                <ul class="navigate">
+                    <li><a href="index.html">首页</a></li>
+                    <li class="activelink"><a href="teach.html">使用说明</a></li>
+                    <li><a href="updatelog.html">更新记录</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div id="mainbody">
+        <div class="content">
+            <h2>主要功能教程</h2>
+            <p>软件使用前请确定你的系统为Windows7家庭高级版以上版本（包括专业版和旗舰版），并且打过<a href="http://www.baidu.com/s?tn=ylmf_4_dg&ch=1&ie=utf-8&bs=win7%E4%B8%BB%E9%A2%98%E7%A0%B4%E8%A7%A3%E8%A1%A5%E4%B8%81&f=8&rsv_bp=1&wd=win7%E4%B8%BB%E9%A2%98%E7%A0%B4%E8%A7%A3%E8%A1%A5%E4%B8%81&inputT=127140" target="_blank">Win7主题破解补丁</a>。并有管理员权限。</p>
+            <h3>功能按钮栏</h3>
+            <p>新建：新建主题文件，设置全部还原。</p>
+            <p>打开：打开系统已安装的主题。能够对其中的内容进行编辑。</p>
+            <p>保存到系统目录：连同设置的图标、壁纸、声音等一同保存到系统主题的目录。保存之后可以在系统个性化里应用。</p>
+            <p>生成自解压安装包：保存自解压安装包格式，方便主题分享。可以设置主题信息和许可协议。</p>
+            <p>生成全功能现代化安装包：此功能组件（Win7主题安装器）是本软件的一大特色，可以生成定制度很高的安装包，包括闪屏图片、背景图片、BGM、字体、输入法等个性化内容。详细教程可以在动漫东东里查看。</p>
+            <p>背景动画开关：可以开关背景动态效果。</p>
+            <p>关于：查看软件、版权信息。</p>
+            <h3>主题信息</h3>
+            <p>本标签可以设置基本信息，包括主题名称、文件名称、信息、Logo文件，并可以预览主题图标样式。</p>
+            <h3>样式文件</h3>
+            <p>本标签页可以设置系统样式（msstyles）文件，可以使用系统自带的Aero样式，也可以使用自定义样式文件。自定义样式文件一般可以使用Win7 Style Builder软件来进行设计。详细教程可以在动漫东东等论坛的教学板块进行查看学习。</p>
+            <h3>桌面图标</h3>
+            <p>本标签可以设置桌面图标样式，包括计算机、个人文件夹、网络和回收站。应用样式后自动换为此处设置的图标样式。</p>
+            <h3>鼠标指针</h3>
+            <p>此标签可以设置鼠标指针样式，移动到框上可以预览鼠标指针样式。</p>
+            <h3>背景壁纸</h3>
+            <p>可以设置一系列壁纸，并可以设置Slider show切换时间。</p>
+            <h3>窗口颜色</h3>
+            <p>本区域设置Aero窗口边框的颜色和透明度，让你的主题充满色彩。</p>
+            <h3>系统声音</h3>
+            <p>本标签可以设置声音主题。并可以预览各个设置项的声音。</p>
+            <h2>Win7主题安装器教程</h2>
+            <h3><a href="http://leaful.com/teach/20121209-win7-theme-installer-maker" target="_blank">点击此处在我网站查看详细教程</a></h3>
+            <h3><a href="http://bbs.comicdd.com/thread-353788-1-1.html" target="_blank">点击此处在动漫东东查看教程</a></h3>
+        </div>
+    </div>
+    <div class="footer">
+        <span>©2011-2013 <a href="http://weibo.com/plusky" target="_blank">桂叶出品</a></span>
+    </div>
+</body>
+</html>

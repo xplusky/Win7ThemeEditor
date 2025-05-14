@@ -1,0 +1,235 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:s="clr-namespace:System;assembly=mscorlib">
+    <!--萌芽系列網站(mnya.idv.tw)協助翻譯成繁體中文／正體中文（台灣）-->
+    <s:String x:Key="LangName">繁體中文／正體中文（台灣）</s:String>
+    <s:String x:Key="MainTitle">Win7主題生成器（櫻茶幻萌組專用）</s:String>
+    <!--Tab-->
+    <s:String x:Key="TabInfo">信息</s:String>
+    <s:String x:Key="TabStyle">樣式</s:String>
+    <s:String x:Key="TabCursors">指針</s:String>
+    <s:String x:Key="TabIcon">圖標</s:String>
+    <s:String x:Key="TabWallpaper">壁紙</s:String>
+    <s:String x:Key="TabColor">顏色</s:String>
+    <s:String x:Key="TabSound">聲音</s:String>
+    <!--Button-->
+    <s:String x:Key="BtnBrowse">瀏覽</s:String>
+    <s:String x:Key="BtnBrowseBatch">瀏覽（可批量）</s:String>
+    <s:String x:Key="BtnRestore">還原</s:String>
+    <s:String x:Key="BtnClear">清除</s:String>
+    <s:String x:Key="BtnClearAll">全部清除</s:String>
+    <s:String x:Key="BtnDel">刪除</s:String>
+    <s:String x:Key="BtnAdd">添加</s:String>
+    <s:String x:Key="BtnBack">返回</s:String>
+    <s:String x:Key="BtnOpen">打開</s:String>
+    <s:String x:Key="BtnCancel">取消</s:String>
+    <!--Def-->
+    <s:String x:Key="DefCur">默認指針</s:String>
+    <s:String x:Key="DefNone">無</s:String>
+    <!--Common-->
+    <s:String x:Key="ComSec">秒</s:String>
+    <s:String x:Key="ComMin">分</s:String>
+    <s:String x:Key="ComHour">小時</s:String>
+    <s:String x:Key="ComDay">天</s:String>
+    <!--FileType-->
+    <s:String x:Key="FileTypeTheme">主題文件(*.theme)</s:String>
+    <s:String x:Key="FileTypePngJpgGifBmp">圖片文件(*.png,*.jpg,*.gif,*.bmp)</s:String>
+    <s:String x:Key="FileTypeMp3">MP3文件(*.mp3)</s:String>
+    <s:String x:Key="FileTypeIco">圖標文件(*.ico)</s:String>
+    <s:String x:Key="FileTypeTtf">字體文件(*.ttf)</s:String>
+    <s:String x:Key="FileTypePngBmp">圖片文件(*.png,*.bmp)</s:String>
+    <s:String x:Key="FileTypePng">圖片文件(*.png)</s:String>
+    <s:String x:Key="FileTypeInput">輸入法皮膚(*.ssf,*.qpys)</s:String>
+    <s:String x:Key="FileTypeAll">所有文件(*.*)</s:String>
+    <s:String x:Key="FileTypeExe">應用程序(*.exe)</s:String>
+    <s:String x:Key="FileTypeWav">波形文件(*.wave)</s:String>
+    <s:String x:Key="FileTypeMsstyles">Msstyles文件(*.msstyles)</s:String>
+    <s:String x:Key="FileTypeCurAni">鼠標指針文件(*.cur,*.ani)</s:String>
+    <s:String x:Key="FileTypeInf">配置文件(*.inf,*.ini)</s:String>
+    <!--Top-->
+    <s:String x:Key="TopNewTip">新建主題</s:String>
+    <s:String x:Key="TopNewMessage">確定要新建嗎?</s:String>
+    <s:String x:Key="TopOpenTip">打開系統主題</s:String>
+    <s:String x:Key="TopSaveTip">保存到系統主題目錄</s:String>
+    <s:String x:Key="TopSaveMessage">確定要保存嗎?</s:String>
+    <s:String x:Key="TopSaveOverwriteMessage">同名主題存在，是否要覆蓋？</s:String>
+    <s:String x:Key="TopSaveOccupyMessage">文件被佔用，是否忽略？</s:String>
+    <s:String x:Key="TopSaveSameNameMessage">文件名稱非法（如空、aero等/），請更換</s:String>
+    <s:String x:Key="TopSaveOk">保存成功</s:String>
+    <s:String x:Key="TopSfxTip">創建自解壓文件</s:String>
+    <s:String x:Key="TopInstallerTip">創建現代化安裝包</s:String>
+    <s:String x:Key="TopAboutTip">關於與設置</s:String>
+    <!--ThemeFile-->
+    <s:String x:Key="ThemeFileCursorsTheme">鼠標指針</s:String>
+    <s:String x:Key="ThemeFileSoundTheme">聲音</s:String>
+    <!--TabInfo-->
+    <s:String x:Key="TabInfoInfo">主題註釋信息</s:String>
+    <s:String x:Key="TabInfoInfoText" xml:space="preserve">作者:
+網址:</s:String>
+    <s:String x:Key="TabInfoDispName">*主題顯示名稱</s:String>
+    <s:String x:Key="TabInfoDispNameText">我的主題</s:String>
+    <s:String x:Key="TabInfoFileName">*文件名稱（建議英文）</s:String>
+    <s:String x:Key="TabInfoLogo">主題LOGO</s:String>
+    <!--TabStyle-->
+    <s:String x:Key="TabStyleMssFile">樣式文件</s:String>
+    <s:String x:Key="TabStyleBtnCuston">使用自定義樣式文件</s:String>
+    <s:String x:Key="TabStyleBtnDefault">使用系統默認Aero樣式</s:String>
+    <s:String x:Key="TabStyleBtnEditMss">運行 Win7 Style Builder</s:String>
+    <s:String x:Key="TabStyleBtnEditMssNotSet">沒有設置WSB程序的路徑，請設置</s:String>
+    <s:String x:Key="TabStyleBtnSetPath">設置路徑</s:String>
+    <s:String x:Key="TabStyleFileInfo">文件大小： {0} MB</s:String>
+    <!--TabCursors-->
+    <s:String x:Key="TabCursorsDefCur">默認指針</s:String>
+    <s:String x:Key="TabCursorsReadInfBtn">讀取Inf文件</s:String>
+    <!--TabIcon-->
+    <s:String x:Key="TabIconCom">電腦</s:String>
+    <s:String x:Key="TabIconUser">我的資料夾</s:String>
+    <s:String x:Key="TabIconNet">網路</s:String>
+    <s:String x:Key="TabIconDustEmpty">資源回收桶（空）</s:String>
+    <s:String x:Key="TabIconDustFull">資源回收桶（滿）</s:String>
+    <!--TabWallpaper-->
+    <s:String x:Key="TabWallpaperBtnUp">上移</s:String>
+    <s:String x:Key="TabWallpaperBtnDown">下移</s:String>
+    <s:String x:Key="TabWallpaperChangeTime">壁紙轉換間隔</s:String>
+    <s:String x:Key="TabWallpaperShuffle">隨機切換</s:String>
+    <s:String x:Key="TabWallpaperImageInfo">圖像尺寸：{0}*{1}  文件大小：{2}KB</s:String>
+    <!--TabColor-->
+    <s:String x:Key="TabColorCode">顏色代碼</s:String>
+    <!--TabSound-->
+    <s:String x:Key="TabSoundDefSound">使用系統默認聲音主題</s:String>
+    <s:String x:Key="TabSoundBtnPlay">播放</s:String>
+    <!--Sfx-->
+    <s:String x:Key="SfxTitle">生成自解壓安裝包</s:String>
+    <s:String x:Key="SfxCreat">生成自解壓安裝包</s:String>
+    <s:String x:Key="SfxCreatComplete">創建完成</s:String>
+    <s:String x:Key="SfxLicence">許可信息</s:String>
+    <s:String x:Key="SfxReadme">主題信息</s:String>
+    <s:String x:Key="SfxReadmeText" xml:space="preserve">【安裝提示】
+請務必保證系統為Win7家庭高級版以上（包括專業版和旗艦版，不知道的可以到我的電腦右鍵屬性裡查看），並打過主題破解補丁和文件夾背景補丁。沒打過補丁的請參閱下面的網址：http://bbs.comicdd.com/thread-199748-1-1.html 
+
+●此安裝包為直裝版，需要刪除的請在個性化設置裡右鍵刪除。
+        
+●下面的路徑無需更改，直接安裝即可！</s:String>
+    <s:String x:Key="SfxAutoRun">安裝完成後自動應用</s:String>
+    <s:String x:Key="SfxWinTitle">窗口標題</s:String>
+    <!--About-->
+    <s:String x:Key="AboutTitle">關於Win7主題生成器</s:String>
+    <s:String x:Key="AboutAppName" xml:space="preserve">Win7主題生成器
+(櫻茶幻萌組專用)
+V{0}</s:String>
+    <s:String x:Key="AboutBtnUpdate">更新/反饋</s:String>
+    <s:String x:Key="AboutBtnUpdateMessage"  xml:space="preserve">新版本：{0}
+點擊升級</s:String>
+    <s:String x:Key="AboutCopyrightTitle">*版權信息*</s:String>
+    <s:String x:Key="AboutCopyrightText" xml:space="preserve">©Copyright 2011-2013 櫻茶幻萌組/桂葉出品
+本軟件可自由傳播使用，在沒有得到作者或櫻茶幻萌組授權的情況下禁止用於任何商業用途，最終解釋權歸櫻茶幻萌組與軟件作者 
+貢獻者：{0}
+最後更新：{1}</s:String>
+    <s:String x:Key="AboutComponentTitle">*組件信息*</s:String>
+    <s:String x:Key="AboutComponentInstallerText" xml:space="preserve">Win7主題安裝器
+©Copyright 2012-2013 桂葉出品</s:String>
+    <s:String x:Key="AboutHelpSetTitle">*獲取幫助/程序設置*</s:String>
+    <s:String x:Key="AboutHelpSetBtnHelp">軟件教程</s:String>
+    <s:String x:Key="AboutHelpSetBtnAnimate">動畫開關</s:String>
+    <s:String x:Key="AboutHelpSetLangChangeMes">重啟軟件生效</s:String>
+    <s:String x:Key="AboutLinkTitle">*相關鏈接*</s:String>
+    <!--OpenTheme-->
+    <s:String x:Key="OpenTitle">打開系統已安裝主題</s:String>
+    <s:String x:Key="OpenDelMessage">是否要刪除此主題？</s:String>
+    <s:String x:Key="OpenDelOccupyMessage">無法刪除，主題文件被佔用</s:String>
+    <!--Installer-->
+    <s:String x:Key="InstIcon" xml:space="preserve">Win7主題安裝器
+{0}</s:String>
+    <s:String x:Key="InstCreat">生成安裝包</s:String>
+    <s:String x:Key="InstCreatErrorChooseStyle">必須選擇主題文件</s:String>
+    <s:String x:Key="InstCreatErrorIconFail">更換圖標失敗</s:String>
+    <s:String x:Key="InstCreatComplete">安裝包生成成功</s:String>
+    <s:String x:Key="InstGroupFile">主題文件</s:String>
+    <s:String x:Key="InstUseAppTheme">使用本程序生成的主題</s:String>
+    <s:String x:Key="InstUseCustom">使用自定義主題</s:String>
+    <s:String x:Key="InstGroupBasic">安裝包界面設置</s:String>
+    <s:String x:Key="InstBgImage">背景圖片</s:String>
+    <s:String x:Key="InstSplashImage">閃圖</s:String>
+    <s:String x:Key="InstWelcomeImage">歡迎圖片</s:String>
+    <s:String x:Key="InstBgm">背景音樂</s:String>
+    <s:String x:Key="InstThemeName">主題名稱(必須，頭尾不要有空格，不能含有非法文件名字符)</s:String>
+    <s:String x:Key="InstAuthor">作者</s:String>
+    <s:String x:Key="InstWebsite">網址</s:String>
+    <s:String x:Key="InstSetupIcon">安裝包圖標</s:String>
+    <s:String x:Key="InstGroupReadme">主題信息</s:String>
+    <s:String x:Key="InstDisplayReadme">顯示主題信息</s:String>
+    <s:String x:Key="InstGroupLicence">許可信息</s:String>
+    <s:String x:Key="InstDisplayLicence">顯示許可信息</s:String>
+    <s:String x:Key="InstGroupAdvance">安裝內容設置</s:String>
+    <s:String x:Key="InstFonts">安裝字體</s:String>
+    <s:String x:Key="InstStartButton">更換開始按鈕（54*162 或 106*318）</s:String>
+    <s:String x:Key="InstStartButtonError">圖片尺寸必須為54*162 或 106*318</s:String>
+    <s:String x:Key="InstInput">輸入法皮膚（搜狗 或 QQ）</s:String>
+    <s:String x:Key="InstOther">其他文件</s:String>
+    <s:String x:Key="InstPassword">設置密碼</s:String>
+    <s:String x:Key="InstLogon">登陸界面背景圖片（拉伸至滿屏）</s:String>
+    <s:String x:Key="InstVersion">主題版本</s:String>
+    <!--ErrorBox-->
+    <s:String x:Key="ErrorTitle">錯誤啦T_T</s:String>
+    <s:String x:Key="ErrorContact">您的聯繫方式</s:String>
+    <s:String x:Key="ErrorBtnFeedback">發送錯誤信息</s:String>
+    <!--SoundTheme-->
+    <s:String x:Key="SoundThemeDefault">Windows默認</s:String>
+    <s:String x:Key="SoundThemeSilent">無聲</s:String>
+    <s:String x:Key="SoundThemeAfternoon">下午</s:String>
+    <s:String x:Key="SoundThemeHandwriting">書法</s:String>
+    <s:String x:Key="SoundThemeCharacter">字符</s:String>
+    <s:String x:Key="SoundThemeUrban">都市風景</s:String>
+    <s:String x:Key="SoundThemeTriangle">三角形</s:String>
+    <s:String x:Key="SoundThemeHoliday">節日</s:String>
+    <s:String x:Key="SoundThemeFlowers">群花爭艷</s:String>
+    <s:String x:Key="SoundThemeTradition">傳統</s:String>
+    <s:String x:Key="SoundThemeScenery">風景</s:String>
+    <s:String x:Key="SoundThemeWeird">古怪</s:String>
+    <s:String x:Key="SoundThemeRaga">拉格</s:String>
+    <s:String x:Key="SoundThemeSavanna">熱帶大草原</s:String>
+    <s:String x:Key="SoundThemeSonata">奏鳴曲</s:String>
+    <!--Sound-->
+    <s:String x:Key="SoundChangeTheme">Windows更改主題（常用）</s:String>
+    <s:String x:Key="SoundWindowsLogoff">Windows登出（常用）</s:String>
+    <s:String x:Key="SoundWindowsUAC">Windows用戶賬戶控制</s:String>
+    <s:String x:Key="SoundWindowsLogon">Windows登錄（常用）</s:String>
+    <s:String x:Key="SoundSystemHand">關鍵性停止</s:String>
+    <s:String x:Key="SoundClose">關閉程序</s:String>
+    <s:String x:Key="SoundRestoreUp">向上還原</s:String>
+    <s:String x:Key="SoundRestoreDown">向下還原</s:String>
+    <s:String x:Key="SoundMenuPopup">彈出菜單</s:String>
+    <s:String x:Key="SoundSystemExclamation">感嘆號</s:String>
+    <s:String x:Key="SoundPrintComplete">打印結束</s:String>
+    <s:String x:Key="SoundOpen">打開程序</s:String>
+    <s:String x:Key="SoundFaxBeep">新傳真通知</s:String>
+    <s:String x:Key="SoundMailBeep">新郵件通知</s:String>
+    <s:String x:Key="SoundSystemAsterisk">星號</s:String>
+    <s:String x:Key="SoundShowBand">顯示工具欄區</s:String>
+    <s:String x:Key="SoundMaximize">最大化</s:String>
+    <s:String x:Key="SoundMinimize">最小化</s:String>
+    <s:String x:Key="SoundLowBatteryAlarm">電池不足警報</s:String>
+    <s:String x:Key="SoundCriticalBatteryAlarm">電池嚴重不足警報</s:String>
+    <s:String x:Key="SoundAppGPFault">程序錯誤</s:String>
+    <s:String x:Key="SoundSystemNotification">系統通知</s:String>
+    <s:String x:Key="SoundMenuCommand">菜單命令</s:String>
+    <s:String x:Key="SoundDeviceDisconnect">設備中斷連接</s:String>
+    <s:String x:Key="SoundDeviceFail">設備未能連接</s:String>
+    <s:String x:Key="SoundDeviceConnect">設備連接</s:String>
+    <s:String x:Key="SoundSystemExit">退出Windows（常用）</s:String>
+    <s:String x:Key="SoundCCSelect">選擇</s:String>
+    <s:String x:Key="SoundSystemQuestion">問題</s:String>
+    <s:String x:Key="SoundDefault">默認響聲</s:String>
+
+    <s:String x:Key="SoundFaxError">傳真錯誤</s:String>
+    <s:String x:Key="SoundSecurityBand">信息欄</s:String>
+    <s:String x:Key="SoundNavigating">啟動導航</s:String>
+    <s:String x:Key="SoundActivatingDocument">完成導航</s:String>
+    <s:String x:Key="SoundSearchProviderDiscovered">已發現搜索提供程序</s:String>
+    <s:String x:Key="SoundFeedDiscovered">已發現原</s:String>
+    <s:String x:Key="SoundFaxSent">已發送傳真</s:String>
+    <s:String x:Key="SoundFaxLineRings">撥入電話</s:String>
+    <s:String x:Key="SoundEmptyRecycleBin">清空資源回收桶（常用）</s:String>
+    <s:String x:Key="SoundMoveMenuItem">移動菜單項</s:String>
+    <s:String x:Key="SoundBlockedPopup">阻止彈出的窗口</s:String>
+</ResourceDictionary>

@@ -1,0 +1,81 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:s="clr-namespace:System;assembly=mscorlib">
+    <s:String x:Key="LangName">日本語(JP)</s:String>
+    <s:String x:Key="BtnEnterSetup">起動ます</s:String>
+    <s:String x:Key="BtnAgree">同意する</s:String>
+    <s:String x:Key="BtnDisagree">同意しない</s:String>
+    <s:String x:Key="BtnNext">次へ</s:String>
+    <s:String x:Key="BtnBack">戻る</s:String>
+    <s:String x:Key="BtnInstall">インストール</s:String>
+    <s:String x:Key="BtnComplete">完了</s:String>
+    <s:String x:Key="BtnOk">確認</s:String>
+    <s:String x:Key="BtnUninstall">アンインストール</s:String>
+
+    <s:String x:Key="AboutMessage" xml:space="preserve">*About this theme and various accessories*
+The theme author {0} made theme and affiliated components can't guarantee in this system can normal use, and its applicability and the use of this program has nothing to do, such as in the theme or its affiliated components (including input method skin, font, etc.) use problems should be put forward to him. The author of this program is not responsible for related technical support. The above content copyright belongs to {0} all.
+Theme version: {2}
+*About the installation program*
+The software (Win7 theme installer) can be customized various installation components, the main function is to provide the installation environment and support detection system of the theme files to crack, provide third party software (UniversalThemePatcher) crack system theme, the third party software usability this program owner not be responsible for. In the software function within the scope of the author of this program can provide limited technical support, if not use according to the specification of the software, the consequences of the author of this software is not responsible for. This software can be used free communication, but not used for illegal purposes, the software copyright belongs to "Plusky" (http://weibo.com/plusky) all.
+Software version: {1}</s:String>
+    <s:String x:Key="AboutTitle">について</s:String>
+
+    <s:String x:Key="PasswordEnterPassword">輸入パスワード</s:String>
+    <s:String x:Key="PasswordNotRight">入力されたパスワードが正しくありません。もう一度入力しなおしてください。</s:String>
+
+    <s:String x:Key="LincenceTitle">使用許諾契約書</s:String>
+    <s:String x:Key="EnviromentTitle">System Environment Detection</s:String>
+    <s:String x:Key="EnviromentClickToPatchTheme">Click to patch theme files.</s:String>
+    <s:String x:Key="EnviromentIfPatchTheme">Do you want to install the theme files patch?</s:String>
+    <s:String x:Key="EnviromentClickToPatchFrame">Click to patch explorer frame file.</s:String>
+    <s:String x:Key="EnviromentIfPatchFrame">Do you want to install the explorer file patch?</s:String>
+    <s:String x:Key="EnviromentSystemVersion">System Version</s:String>
+    <s:String x:Key="EnviromentThemePatchDetect">System Theme File Patch Detection</s:String>
+    <s:String x:Key="EnviromentFramePatchDetect">System Explorer Frame File Patch Detection</s:String>
+    <s:String x:Key="EnviromentDetecting">Detecting...</s:String>
+    <s:String x:Key="EnviromentNotPatched">Not Patched</s:String>
+    <s:String x:Key="EnviromentModify">Modified</s:String>
+    <s:String x:Key="EnviromentPatchedFrame">Already Patched (17514)</s:String>
+    <s:String x:Key="EnviromentNotPatchedFrame">Not patched or not the lateest</s:String>
+    <s:String x:Key="EnviromentPatchOk">The theme files patched success! Restart the system effective.Do you want to reboot NOW?</s:String>
+    <s:String x:Key="EnviromentFramePatchOk">Installation complete, please reboot or restart the explorer process to apply.</s:String>
+    <s:String x:Key="EnviromentNoticeSystemVersion">Your system version does not conform to the installation requirements, after installation may not be able to use. Are you sure to continue?</s:String>
+    <s:String x:Key="EnviromentNoticeNotPatch">Detect your system theme file not cracked, if you still want to install theme, may become classic style, do you wish to continue?</s:String>
+    <s:String x:Key="EnviromentNotMatch">Testing environment function only supports Windows7 SP1</s:String>
+    <s:String x:Key="EnviromentPatchPleaseWait">Please wait！Click ok to continue</s:String>
+
+    <s:String x:Key="ReadmeTitle">Readme</s:String>
+
+    <s:String x:Key="ComponentTitle">Components</s:String>
+    <s:String x:Key="ComponentTheme">Windows 7 Theme</s:String>
+    <s:String x:Key="ComponentFont">Font Files</s:String>
+    <s:String x:Key="ComponentCursors">Cursors Files</s:String>
+    <s:String x:Key="ComponentIcons">Destop Icons</s:String>
+    <s:String x:Key="ComponentStartButton">Change Start Button</s:String>
+    <s:String x:Key="ComponentLogonImage">Change Logon Image</s:String>
+    <s:String x:Key="ComponentStartButtonTip">Note: the start button to replace, then change another topic, does not automatically restore original button style, please make your own in this subject catalogue of the StartButton directory W7SOCV5 software or other software reduction.</s:String>
+    <s:String x:Key="ComponentInput">Input Skin Files</s:String>
+    <s:String x:Key="ComponentOther">Other Files</s:String>
+    <s:String x:Key="ComponentGreenInstall">Create uninstall information</s:String>
+	<s:String x:Key="ComponentDesktopIcon">Create desktop icons</s:String>
+
+    <s:String x:Key="InstallingTitle">Installing... Please Wait</s:String>
+
+    <s:String x:Key="CompleteTitle">完成する</s:String>
+    <s:String x:Key="CompleteApplyTheme">Apply Theme</s:String>
+    <s:String x:Key="CompleteVisitWeb">Visit Website</s:String>
+    <s:String x:Key="CompleteApplyInput">Apply Input Skins</s:String>
+    <s:String x:Key="CompleteBrowseFiles">Browse Files</s:String>
+    <s:String x:Key="CompleteChangeStartButton">Change Start Button Now</s:String>
+
+    <s:String x:Key="ErrorTitle">Install Fail...</s:String>
+
+    <s:String x:Key="NotSupportTitle">申し訳ない</s:String>
+    <s:String x:Key="NotSupportMessage">This installer only run on Windows 7</s:String>
+
+    <s:String x:Key="UninstallTitle">Select Uninstall Components</s:String>
+    <s:String x:Key="UninstallCompleteTitle">アンインストール完成する</s:String>
+    <s:String x:Key="UninstallMssInUseMes">This theme might be in use. Do you want to continue? After deletion may have residual file. </s:String>
+    <s:String x:Key="Uninstall">アンインストール</s:String>
+    <s:String x:Key="UninstallStartUrl">Visit my website</s:String>
+</ResourceDictionary>

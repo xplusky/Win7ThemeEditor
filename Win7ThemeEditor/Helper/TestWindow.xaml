@@ -1,0 +1,16 @@
+﻿<Window
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	x:Class="Win7ThemeEditor.TestWindow"
+	x:Name="Window"
+	Title="TestWindow"
+	Width="640" Height="480">
+
+	<Grid x:Name="LayoutRoot">
+		<Expander Header="Expander" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,31.685,0,0" Height="367.315" Width="566" Template="{DynamicResource MyExpanderControlTemplate}">
+			<Grid Background="#FFFFD7D7">
+				<Image Source="/Win7ThemeEditor;component/Res/Image/SsakuraTyaLogo128.png" Stretch="Fill"/>
+			</Grid>
+		</Expander>
+	</Grid>
+</Window>

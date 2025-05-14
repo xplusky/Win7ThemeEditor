@@ -1,0 +1,34 @@
+﻿<Page
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	x:Class="ThemeInstaller.Pages.CompleteSence"
+	x:Name="Page"
+	WindowTitle="Page"
+	FlowDirection="LeftToRight"
+	Width="664" Height="417" Loaded="Page_Loaded">
+
+	<Grid x:Name="LayoutRoot">
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="70"/>
+        </Grid.RowDefinitions>
+        <Button x:Name="BtnOk" Content="{DynamicResource BtnComplete}" Height="40" VerticalAlignment="Center" Template="{DynamicResource ButtonControlTemp2}" Click="BtnOkClick" HorizontalAlignment="Center" Width="150" Grid.Row="1"/>
+        <StackPanel x:Name="CheckBoxPanel" VerticalAlignment="Center" HorizontalAlignment="Center" Width="320">
+            <CheckBox x:Name="CheckboxApplyTheme" Template="{DynamicResource CheckBoxControlMetro}" Margin="5,0,5,10" IsChecked="True" Height="35">
+                <TextBlock TextWrapping="Wrap" Margin="0" HorizontalAlignment="Center" FontSize="21.333" FontWeight="Bold" TextAlignment="Center" VerticalAlignment="Center" Text="{DynamicResource CompleteApplyTheme}"/>
+            </CheckBox>
+            <CheckBox x:Name="CheckboxVisitWebsite" Template="{DynamicResource CheckBoxControlMetro}" Margin="5,0,5,10" Height="35" IsChecked="True">
+                <TextBlock TextWrapping="Wrap" Margin="0" HorizontalAlignment="Center" FontSize="21.333" FontWeight="Bold" TextAlignment="Center" VerticalAlignment="Center" Text="{DynamicResource CompleteVisitWeb}"/>
+            </CheckBox>
+            <CheckBox x:Name="CheckboxApplyInput" Template="{DynamicResource CheckBoxControlMetro}" Margin="5,0,5,10" Height="35" IsChecked="True">
+                <TextBlock TextWrapping="Wrap" Margin="0" HorizontalAlignment="Center" FontSize="21.333" FontWeight="Bold" TextAlignment="Center" VerticalAlignment="Center" Text="{DynamicResource CompleteApplyInput}"/>
+            </CheckBox>
+            <CheckBox x:Name="CheckboxOpenOtherFiles" Template="{DynamicResource CheckBoxControlMetro}" Margin="5,0,5,10" Height="35" IsChecked="True">
+                <TextBlock TextWrapping="Wrap" Margin="0" HorizontalAlignment="Center" FontSize="21.333" FontWeight="Bold" TextAlignment="Center" VerticalAlignment="Center" Text="{DynamicResource CompleteBrowseFiles}"/>
+            </CheckBox>
+            <CheckBox x:Name="CheckboxApplyStartButton" Template="{DynamicResource CheckBoxControlMetro}" Margin="5,0,5,10" Height="35" IsChecked="True">
+                <TextBlock TextWrapping="Wrap" Margin="0" HorizontalAlignment="Center" FontSize="21.333" FontWeight="Bold" TextAlignment="Center" VerticalAlignment="Center" Text="{DynamicResource CompleteChangeStartButton}"/>
+            </CheckBox>
+        </StackPanel>
+    </Grid>
+</Page>
